@@ -1,10 +1,3 @@
-//
-//  SceneDelegate.swift
-//  XcodeBasic
-//
-//  Created by 小原則也 on 11/10.
-//
-
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {

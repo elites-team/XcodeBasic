@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		D90E3797273B97A400311E48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90E3796273B97A400311E48 /* AppDelegate.swift */; };
 		D90E3799273B97A400311E48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90E3798273B97A400311E48 /* SceneDelegate.swift */; };
-		D90E379B273B97A400311E48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90E379A273B97A400311E48 /* ViewController.swift */; };
 		D90E379E273B97A500311E48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D90E379C273B97A400311E48 /* Main.storyboard */; };
 		D90E37A0273B97A900311E48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D90E379F273B97A900311E48 /* Assets.xcassets */; };
 		D90E37A3273B97A900311E48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D90E37A1273B97A900311E48 /* LaunchScreen.storyboard */; };
+		D90E37AB273BA1BC00311E48 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90E37AA273BA1BC00311E48 /* FirstViewController.swift */; };
+		D90E37AD273BA1C900311E48 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90E37AC273BA1C900311E48 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D90E3793273B97A400311E48 /* XcodeBasic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XcodeBasic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D90E3796273B97A400311E48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D90E3798273B97A400311E48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D90E379A273B97A400311E48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D90E379D273B97A400311E48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D90E379F273B97A900311E48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D90E37A2273B97A900311E48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D90E37A4273B97A900311E48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D90E37AA273BA1BC00311E48 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		D90E37AC273BA1C900311E48 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				D90E3796273B97A400311E48 /* AppDelegate.swift */,
 				D90E3798273B97A400311E48 /* SceneDelegate.swift */,
-				D90E379A273B97A400311E48 /* ViewController.swift */,
 				D90E379C273B97A400311E48 /* Main.storyboard */,
+				D90E37AA273BA1BC00311E48 /* FirstViewController.swift */,
+				D90E37AC273BA1C900311E48 /* SecondViewController.swift */,
 				D90E379F273B97A900311E48 /* Assets.xcassets */,
 				D90E37A1273B97A900311E48 /* LaunchScreen.storyboard */,
 				D90E37A4273B97A900311E48 /* Info.plist */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D90E379B273B97A400311E48 /* ViewController.swift in Sources */,
+				D90E37AD273BA1C900311E48 /* SecondViewController.swift in Sources */,
+				D90E37AB273BA1BC00311E48 /* FirstViewController.swift in Sources */,
 				D90E3797273B97A400311E48 /* AppDelegate.swift in Sources */,
 				D90E3799273B97A400311E48 /* SceneDelegate.swift in Sources */,
 			);
@@ -287,9 +291,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 22VQFH3SB9;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = XcodeBasic/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -304,6 +308,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nobara.XcodeBasic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,9 +320,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 22VQFH3SB9;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = XcodeBasic/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -332,6 +337,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nobara.XcodeBasic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
